@@ -1,0 +1,51 @@
+.infoClass
+{
+  padding-bottom: 20px;
+  width: 300px;
+}
+
+.infoLable
+{
+    color: black;
+    font-size: small;
+    font-family: 'DM Mono', monospace;
+    letter-spacing: 1px;
+}
+
+.emailLable
+{
+  color: black;
+  font-size: 0.75rem;
+  font-family: 'DM Mono', monospace;
+  letter-spacing: 1px;
+}
+
+button
+{
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 992px)
+{
+  .hide-on-med-and-down
+  {
+    display: block !important;
+  }  
+   nav .brand-logo {
+    display: none;
+  }
+  .card
+  {
+    width: 100vw;
+  }
+  .row
+  {
+    margin: 0 !important;
+  }
+  .row .col.offset-s3
+  {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+}

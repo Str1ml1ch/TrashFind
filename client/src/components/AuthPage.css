@@ -1,0 +1,25 @@
+.MainText
+{
+    color: black;
+    margin: auto auto;
+}
+
+
+.MainCard
+{
+    width: 50vw;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    background-color: rgb(66, 35, 243);
+    padding: 50vh,50vh,50vw,50vw;
+}
+
+body
+{
+    box-sizing: border-box;
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding:0;
+}
